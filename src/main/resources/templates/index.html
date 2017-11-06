@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
+
+<body>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Welcome back!</h1>
+    <p>What is the first thing you would like to do?</p>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <section class="tile">
+      Add contacts to your contacts list
+    </section>
+    <a class="tile" href="../thankYou">
+        Send a quick "thank you"
+    </a>
+    <section class="tile">
+      Collect leads on a web page
+    </section>
+    <section class="tile">
+      Place a Facebook ad
+    </section>
+  </div>
+</div>
+</body>
+</html>
