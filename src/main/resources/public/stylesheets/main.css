@@ -40,3 +40,23 @@
   display: flex;
   justify-content: space-between;
 }
+
+button {
+  background-color: white;
+  color: deepskyblue;
+  border-color: deepskyblue;
+  border-radius: 32px;
+  padding: 14px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-width: 1px;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  padding: 18px;
+  font-size: 18px;
+}
