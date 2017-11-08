@@ -63,6 +63,11 @@ public class Main {
     return "collectLeads";
   }
 
+  @RequestMapping("/facebookAd")
+  String facebookAd() {
+    return "facebookAd";
+  }
+
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {

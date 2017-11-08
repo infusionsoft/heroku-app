@@ -52,6 +52,7 @@ button {
   display: inline-block;
   font-size: 19px;
   border-width: 1px;
+  margin-top: 15px;
 }
 
 input {
